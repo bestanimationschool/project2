@@ -1,0 +1,246 @@
+/* cstm css */
+.font-Regular{
+    font-family: 'Metropolis Regular';
+}
+
+.font-extra-light{
+    font-family: 'Metropolis Extra Light';
+}
+
+.font-light{
+    font-family: 'Metropolis Light';
+}
+
+.font-medium{
+    font-family: 'Metropolis Medium';
+}
+
+.font-semi-bold{
+    font-family: 'Metropolis Semi Bold';
+}
+
+.font-bold{
+    font-family: 'Metropolis Bold';
+}
+
+.font-extra-bold{
+    font-family: 'Metropolis Extra Bold';
+}
+
+.font-black{
+    font-family: 'Metropolis Black';
+}
+
+.bg-cstm-primery{
+    background-color: #0b7efe;
+}
+
+.bg-cstm-secondary{
+    background-color: #aeaeae;
+}
+
+.text-cstm-primery{
+    color: #0b7efe;
+}
+
+.text-cstm-secondary{
+    color: #aeaeae;
+}
+
+/* cstm css end*/
+
+
+/* navbar css */
+.fa-circle{
+    font-size: 0.4rem;
+}
+
+.nav-link-fs{
+    font-size: 0.75rem;
+}
+
+.cstm-nav-button{
+    padding: 25px 0px;
+    text-align: center;
+    width: 200px;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+.cstm-nav-button-2{
+    padding: 1px 15px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    width:85px;
+}
+.cstm-desh {
+    width: 35px;
+    background-color: aliceblue;
+    display: block;
+    height: 4px;
+    border-radius: 15px;
+}
+
+
+/* navbar css end*/
+
+
+/* carousel section */
+.carousel-caption {
+    bottom: 13.25rem !important;
+}
+
+.cstm-mb-1{
+    margin-bottom: 18rem;
+}
+
+.carousel-indicators [data-bs-target] {
+   
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 30px !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1 !important;
+    background: #000 !important;
+}
+/* carousel section end */
+
+
+/* case-studies section */
+.cstm-col-h-w{
+    height:350px;
+    overflow: hidden;
+}
+.w-90-cstm{
+    width:90%;
+}
+.btn-fs-1{
+    font-size: 0.1rem;
+}
+
+.fa-cstm-size{
+    font-size: 0.25rem;
+}
+/* case-studies section end*/
+
+/* services section start here */
+.services-box{
+    height:40rem;
+    width: 80%;
+}
+
+.branding{
+    background-image: url(images/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    transition: all 0.5s ease-in-out;
+}
+
+.branding:hover{
+    box-shadow: 0rem 0rem 3rem rgb(0 0 0 / 40%) !important;
+}
+
+.branding-btn{
+    right: 93px;
+    bottom: 40px;
+}
+
+.digital{
+    background-image: url(images/04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+
+.digital:hover{
+    box-shadow: 0rem 0rem 3rem rgb(0 0 0 / 40%) !important;
+}
+
+.photography{
+    background-image: url(images/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    transition: all 0.5s ease-in-out;
+}
+
+.photography:hover{
+    box-shadow: 0rem 0rem 3rem rgb(0 0 0 / 40%) !important;
+}
+
+
+.marketing{
+    background-image: url(images/07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    transition: all 0.5s ease-in-out;
+}
+
+.marketing:hover{
+    box-shadow: 0rem 0rem 3rem rgb(0 0 0 / 40%) !important;
+}
+
+.bg-cstm-white{
+    background-color: #fff;
+}
+
+.cstm-services-hr{
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+
+}
+
+.cstm-gap-top{
+    margin-top: 10rem;
+}
+
+.position-absolute-cstm-1{
+    position: absolute;
+    bottom: -25%;
+    left: 25%;
+}
+/* services section end here */
+.position-absolute-cstm-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* portfolio section here */
+
+
+
+
+/* portfolio section end here */
+
+
+
+
+/* blog section here */
+
+
+
+
+/* blog section end here */
+
+@media screen and (max-width:1200px) {
+    .cstm-nav-button {
+        width: 170px;
+    }
+    .w-90-cstm{
+        width:100%;
+    }
+    
+}
